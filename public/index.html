@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="socket.io/socket.io.js"></script>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            padding:25px;
+            background-color: #1c1c1c;
+        }
+        .game{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-height: 70vh;
+        }
+        #canvas{
+            border: 15px solid #196774;
+            image-rendering: pixelated;
+            image-rendering: crisp-edges;
+            image-rendering: -moz-crisp-edges;
+            width: 500px;
+            height: 500x;            
+        }
+    </style>
+    <title>Canvas</title>
+</head>
+<body>
+    <div class="game">
+        <canvas id="canvas" width="25px" height="25px"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
